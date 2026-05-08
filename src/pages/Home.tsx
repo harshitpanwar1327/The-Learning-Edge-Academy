@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom"
 import hero from "../assets/hero-students.jpg"
 import Course from "../section/home/Course"
 import WhyUs from "../section/home/WhyUs"
+import OurResults from "../section/home/OurResults"
+import Mentors from "../section/home/Mentors"
 
 const Home = () => {
   return (
@@ -60,7 +62,7 @@ const Home = () => {
               <img src={hero} alt="Students learning at The Learning Edge Academy" className="h-auto w-full object-cover"/>
               <div className="absolute inset-0 bg-linear-to-tr from-[#162B6F]/20 to-transparent rounded-4xl" />
             </div>
-            <div className="absolute -left-4 top-10 rounded-2xl border border-white/20 bg-white/80 p-4 shadow-xl backdrop-blur-xl md:-left-8">
+            <div className="absolute -left-4 top-10 rounded-2xl border border-white/20 bg-white/40 p-4 shadow-xl backdrop-blur-xl md:-left-8">
               <div className="flex items-center gap-3">
                 <p className="flex h-10 w-10 items-center justify-center rounded-xl bg-linear-to-br from-[#F59E0B] to-[#F97316] text-white">
                   <Trophy className="h-5 w-5" />
@@ -72,7 +74,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="absolute -right-4 bottom-10 rounded-2xl border border-white/20 bg-white/80 p-4 shadow-xl backdrop-blur-xl md:-right-8" style={{ animationDelay: "1.2s" }}>
+            <div className="absolute -right-4 bottom-10 rounded-2xl border border-white/20 bg-white/40 p-4 shadow-xl backdrop-blur-xl md:-right-8" style={{ animationDelay: "1.2s" }}>
               <div className="flex items-center gap-3">
                 <p className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#162B6F] text-white">
                   <Users className="h-5 w-5" />
@@ -89,6 +91,8 @@ const Home = () => {
 
       <Course />
       <WhyUs />
+      <OurResults />
+      <Mentors />
     </>
   )
 }

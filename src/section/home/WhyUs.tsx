@@ -11,7 +11,7 @@ const why = [
 
 const WhyUs = () => {
   return (
-    <section className="bg-[#EEF2FF]/50 py-20 lg:py-24">
+    <section className="bg-[linear-gradient(180deg,oklch(0.99_0.01_260),oklch(0.96_0.025_262))] py-20 lg:py-24">
         <div className="mx-auto max-w-350 px-6 xl:px-10">
             <div className="mx-auto mb-14 max-w-3xl text-center">
                 <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-xs font-semibold uppercase tracking-[2px] text-orange-500">
