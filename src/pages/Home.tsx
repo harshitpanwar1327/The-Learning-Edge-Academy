@@ -5,6 +5,8 @@ import Course from "../section/home/Course"
 import WhyUs from "../section/home/WhyUs"
 import OurResults from "../section/home/OurResults"
 import Mentors from "../section/home/Mentors"
+import Testimonials from "../section/home/Testimonials"
+import Cta from "../section/home/Cta"
 
 const Home = () => {
   return (
@@ -93,6 +95,8 @@ const Home = () => {
       <WhyUs />
       <OurResults />
       <Mentors />
+      <Testimonials />
+      <Cta />
     </>
   )
 }
