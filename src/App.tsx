@@ -2,6 +2,7 @@ import './App.css'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import { lazy, Suspense } from 'react'
+import SocialLinks from './components/SocialLinks'
 
 const Header = lazy(() => import('./components/Header'))
 const Footer = lazy(() => import('./components/Footer'))
@@ -34,8 +35,10 @@ function App() {
           
           <Route path='*' element={<Navigate to='/'/>}/>
         </Routes>
-        <Footer />
+
+        <SocialLinks />
         <BackToTopButton />
+        <Footer />
       </Suspense>
     </main>
   )
