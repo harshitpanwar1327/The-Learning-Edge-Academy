@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
+// import { Mail } from "lucide-react";
 import { Instagram } from "@mui/icons-material"
 // import { FacebookRounded, YouTube } from "@mui/icons-material"
 import { NavLink } from "react-router-dom";
@@ -61,17 +62,17 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Contact Us</h3>
           <div className="flex flex-col gap-2 opacity-80">
-            <a href="/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
-              <MapPin size={18} className="shrink-0" /> <span className="wrap-break-word">Sector 47, Sohna Road, Gurgaon, Haryana 122018</span>
+            <a href="https://maps.app.goo.gl/Z4wizfWmpQhLTLbc7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
+              <MapPin size={18} className="shrink-0" /> <span className="wrap-break-word">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</span>
             </a>
 
-            <a href="tel:+919810012345" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
-              <Phone size={18} className="shrink-0" /> <span>+91 9810012345</span>
+            <a href="tel:+919911115947" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
+              <Phone size={18} className="shrink-0" /> <span>+91 9911115947</span>
             </a>
 
-            <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
+            {/* <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
               <Mail size={18} className="shrink-0" /><span className="wrap-break-word">hello@learningedge.in</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
