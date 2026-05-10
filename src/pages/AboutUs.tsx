@@ -3,6 +3,9 @@ import gallery from "../assets/gallery-1.jpg"
 import Journey from "../section/about/Journey";
 import Faculty from "../section/about/Faculty";
 import Cta from "../section/home/Cta";
+import { lazy } from "react"
+
+const Hero = lazy(()=>import("../section/Hero"));
 
 const vision = [
   {
@@ -48,15 +51,7 @@ const methodology = [
 const AboutUs = () => {
   return (
     <>
-      <section className="mt-15 bg-linear-to-br from-[#0d1d50] via-[#203072] to-[#4A56A6] py-20 text-white md:py-28">
-        <div className="mx-auto max-w-3xl px-6 xl:px-0">
-          <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[2px] backdrop-blur-md">
-            About Us
-          </div>
-          <h1 className="mt-5 text-4xl font-bold leading-tight tracking-[-2px] md:text-6xl">A Decade of Shaping Futures in Gurgaon</h1>
-          <p className="mt-6 text-lg leading-8 text-white/80">The Learning Edge Academy was born from a simple belief — that personalized, rigorous mentoring can transform any motivated student into a high achiever.</p>
-        </div>
-      </section>
+      <Hero badge="About Us" title="A Decade of Shaping Futures in Gurgaon" description="The Learning Edge Academy was born from a simple belief — that personalized, rigorous mentoring can transform any motivated student into a high achiever." />
 
       <section className="py-20">
         <div className="mx-auto grid max-w-350 gap-6 px-6 lg:grid-cols-3 xl:px-10">
