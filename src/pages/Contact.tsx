@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react"
 import {FacebookRounded, Instagram, YouTube} from "@mui/icons-material"
-import FAQ from "../section/FAQ";
+import FAQ from "../section/Faq";
 import { lazy } from "react"
 
 const Hero = lazy(()=>import("../section/Hero"));
@@ -142,7 +142,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <FAQ faqs={faqs} />
+      <FAQ heading="Programs" subHeading="Quick Answers" faqs={faqs} />
     </>
   )
 }
