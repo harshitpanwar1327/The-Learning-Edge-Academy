@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Phone, MapPin } from "lucide-react"
 // import { Mail } from "lucide-react"
-import FAQ from "../section/FAQ";
 import { lazy } from "react"
 import { toast } from "react-toastify";
 import { signInWithPopup } from "firebase/auth";
@@ -12,6 +11,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import { Helmet } from "react-helmet-async";
 
 const Hero = lazy(()=>import("../section/Hero"));
+const FAQ = lazy(()=>import("../section/FAQ"));
 
 type FormData = {
   name: string;

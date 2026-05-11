@@ -1,73 +1,106 @@
-import Hero from "../section/Hero"
+import { lazy } from "react";
+import { Helmet } from "react-helmet-async";
 
-const terms = [
-  {
-    title: "1. Acceptance of Terms",
-    content:"By accessing this website or enrolling in any program offered by The Learning Edge Academy, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.",
-  },
-  {
-    title: "2. Eligibility",
-    content:"Programs are offered to students of eligible age groups (Classes 6 to 12 and competitive exam aspirants). Enrollment for minors must be authorized by a parent or legal guardian.",
-  },
-  {
-    title: "3. Admission & Enrollment",
-    content:"Admission is confirmed only upon completion of registration formalities and payment of applicable fees. The Academy reserves the right to accept or refuse admission at its discretion.",
-  },
-  {
-    title: "4. Fees & Payments",
-    content:"All fees are payable in advance as per the schedule. Fees once paid are non-transferable. Refund eligibility is governed by our Refund Policy below.",
-  },
-  {
-    title: "5. Refund Policy",
-    content:"A refund request may be made within 7 days of enrollment, subject to deduction of administrative charges and the cost of classes already attended. No refunds will be processed after this period.",
-  },
-  {
-    title: "6. Code of Conduct",
-    content:"Students are expected to attend classes regularly, behave respectfully with faculty and peers, and abide by Academy rules. Misconduct may lead to disciplinary action including suspension or dismissal without refund.",
-  },
-  {
-    title: "7. Use of Study Material",
-    content:"All study material, recorded lectures, tests and digital content provided are the intellectual property of The Learning Edge Academy. Sharing, reproducing or selling this material is strictly prohibited.",
-  },
-  {
-    title: "8. Attendance & Performance",
-    content:"While we strive to deliver excellent results, individual outcomes depend on student effort, attendance and consistency. The Academy does not guarantee specific ranks, scores or selections.",
-  },
-  {
-    title: "9. Cancellation by Academy",
-    content:"The Academy reserves the right to reschedule, modify or cancel any program, batch or class for operational reasons, with reasonable notice to enrolled students.",
-  },
-  {
-    title: "10. Limitation of Liability",
-    content:"To the fullest extent permitted by law, The Learning Edge Academy shall not be liable for any indirect, incidental or consequential damages arising from the use of our services or website.",
-  },
-  {
-    title: "11. Governing Law",
-    content:"These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts at Gurgaon, Haryana.",
-  },
-]
+const Hero = lazy(()=>import("../section/Hero"));
 
 const TermsAndConditions = () => {
   return (
     <>
-      <Hero badge="Legal" title="Terms & Conditions" description="Last updated: January 2026" />
+      <Helmet>
+        <title>Terms & Conditions | The Learning Edge Academy Gurugram</title>
+        <meta name="description" content="Read the Terms & Conditions of The Learning Edge Academy, Gurugram regarding admissions, fees, refunds, student conduct and coaching policies." />
+        <meta name="keywords" content="terms and conditions coaching institute, refund policy coaching classes, The Learning Edge Academy terms, Gurugram coaching policies" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.thelearningedgeacademy.in/terms-and-conditions" />
+        <meta property="og:title" content="Terms & Conditions | The Learning Edge Academy" />
+        <meta property="og:description" content="Terms, admission policies, fee structure, refunds and code of conduct for students at The Learning Edge Academy." />
+        <meta property="og:url" content="https://www.thelearningedgeacademy.in/terms-and-conditions" />
+        <meta property="og:type" content="website" />
 
-      <section className="py-16">
-        <div className="mx-auto max-w-5xl space-y-8 px-6 xl:px-0">
-          {terms.map((item, i) => (
-            <div key={i}>
-              <h2 className="text-[28px] font-bold tracking-[-0.8px] text-[#162B6F]">{item.title}</h2>
-              <p className="mt-4 text-[16px] leading-8 text-gray-600">{item.content}</p>
-            </div>
-          ))}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            name: "The Learning Edge Academy",
+            url: "https://www.thelearningedgeacademy.in",
+            telephone: "+91 9911115947",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "SCF 26, Basement, Huda Market, Urban Estate, Sector 4",
+              addressLocality: "Gurugram",
+              addressRegion: "Haryana",
+              postalCode: "122001",
+              addressCountry: "IN",
+            },
+          })}
+        </script>
+      </Helmet>
 
-          <div>
-            <h2 className="text-[28px] font-bold tracking-[-0.8px] text-[#162B6F]">12. Contact Us</h2>
-            <div className="mt-4 space-y-3 text-[16px] leading-8 text-gray-600">
-              <p>For questions regarding these Terms, write to hello@learningedge.in or visit us at:</p>
-              <p>The Learning Edge Academy <br />Sector 47, Sohna Road, Gurgaon <br /> Haryana 122018</p>
-              <p>Phone: +91 98100 12345</p>
-            </div>
+      <Hero badge="Legal" title="Terms & Conditions" description="Last updated: 11 May, 2026" />
+
+      <section className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16 max-w-7xl mx-auto">
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>1. Acceptance of Terms</h2>
+          <p>By accessing this website or enrolling in any program offered by The Learning Edge Academy, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>2. Eligibility</h2>
+          <p>Programs are offered to students of eligible age groups (Classes 6 to 12 and competitive exam aspirants). Enrollment for minors must be authorized by a parent or legal guardian.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>3. Admission & Enrollment</h2>
+          <p>Admission is confirmed only upon completion of registration formalities and payment of applicable fees. The Academy reserves the right to accept or refuse admission at its discretion.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>4. Fees & Payments</h2>
+          <p>All fees are payable in advance as per the schedule. Fees once paid are non-transferable. Refund eligibility is governed by our Refund Policy below.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>5. Refund Policy</h2>
+          <p>A refund request may be made within 7 days of enrollment, subject to deduction of administrative charges and the cost of classes already attended. No refunds will be processed after this period.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>6. Code of Conduct</h2>
+          <p>Students are expected to attend classes regularly, behave respectfully with faculty and peers, and abide by Academy rules. Misconduct may lead to disciplinary action including suspension or dismissal without refund.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>7. Use of Study Material</h2>
+          <p>All study material, recorded lectures, tests and digital content provided are the intellectual property of The Learning Edge Academy. Sharing, reproducing or selling this material is strictly prohibited.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>8. Attendance & Performance</h2>
+          <p>While we strive to deliver excellent results, individual outcomes depend on student effort, attendance and consistency. The Academy does not guarantee specific ranks, scores or selections.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>9. Cancellation by Academy</h2>
+          <p>The Academy reserves the right to reschedule, modify or cancel any program, batch or class for operational reasons, with reasonable notice to enrolled students.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>10. Limitation of Liability</h2>
+          <p>To the fullest extent permitted by law, The Learning Edge Academy shall not be liable for any indirect, incidental or consequential damages arising from the use of our services or website.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>11. Governing Law</h2>
+          <p>These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts at Gurgaon, Haryana.</p>
+        </div>
+
+        <div className='flex flex-col gap-3'>
+          <h2 className='text-2xl font-bold text-[#1B1F66]'>12. Contact Us</h2>
+          <p>For questions regarding these Terms, write to <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">hello@learningedge.in</a> or visit us at:</p>
+          <div className="flex flex-col gap-1">
+            <p>Address: <a href="https://maps.app.goo.gl/Z4wizfWmpQhLTLbc7" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</a></p>
+            <p>Phone: <a href="tel:+919911115947" className="text-[#F0532B]">+91 9911115947</a></p>
           </div>
         </div>
       </section>

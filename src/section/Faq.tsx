@@ -21,7 +21,7 @@ const FAQ: React.FC<FAQProps> = ({ faqs }) => {
   };
 
   return (
-    <div className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16">
+    <div className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16 bg-blue-50">
       <div className="flex flex-col items-center gap-4">
         <div className="flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-xs font-semibold uppercase text-[#F0532B]">
           <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> FAQs

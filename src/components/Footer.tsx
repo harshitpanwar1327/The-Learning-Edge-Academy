@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-[#032262] text-white flex flex-col">
       <div className="p-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-16">
         <div className="flex flex-col gap-4 md:col-span-3 lg:col-span-2">
-          <NavLink to="/" className="flex items-center gap-3">
+          <NavLink to="/" className="w-fit flex items-center gap-3">
             <img src={Logo} alt="Logo" className="w-10 h-10 rounded-xl border border-white shadow-[0_12px_30px_-10px_oklch(0.7_0.18_50/0.45)]" />
             <div>
               <h2 className="font-bold">The Learning Edge</h2>
