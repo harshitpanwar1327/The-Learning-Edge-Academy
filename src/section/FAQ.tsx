@@ -8,8 +8,6 @@ interface FAQItem {
 }
 
 interface FAQProps {
-  heading: string;
-  subHeading: string;
   faqs: FAQItem[];
 }
 

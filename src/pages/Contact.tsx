@@ -256,7 +256,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <FAQ heading="Programs" subHeading="Quick Answers" faqs={faqs} />
+      <FAQ faqs={faqs} />
     </>
   )
 }
