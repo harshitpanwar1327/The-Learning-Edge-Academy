@@ -1,7 +1,5 @@
-import { MapPin, Phone } from "lucide-react";
-// import { Mail } from "lucide-react";
-import { Instagram } from "@mui/icons-material"
-// import { FacebookRounded, YouTube } from "@mui/icons-material"
+import { MapPin, Phone, Mail } from "lucide-react";
+import { Instagram, FacebookRounded } from "@mui/icons-material"
 import { NavLink } from "react-router-dom";
 import Logo from '../assets/Logo.png';
 
@@ -13,7 +11,7 @@ const Footer = () => {
           <NavLink to="/" className="w-fit flex items-center gap-3">
             <img src={Logo} alt="Logo" className="w-10 h-10 rounded-xl border border-white shadow-[0_12px_30px_-10px_oklch(0.7_0.18_50/0.45)]" />
             <div>
-              <h2 className="font-bold">The Learning Edge</h2>
+              <h2 className="font-bold">The Learning Edges</h2>
               <p className="text-sm uppercase opacity-80">Academy · Gurgaon</p>
             </div>
           </NavLink>
@@ -21,9 +19,8 @@ const Footer = () => {
           <p className="leading-relaxed opacity-80">Premier coaching institute in Gurgaon empowering students from foundation to JEE & NEET with personalized mentorship.</p>
 
           <div className="flex items-center gap-4 mt-2">
-            {/* <a href="/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><FacebookRounded /></a> */}
+            <a href="https://www.facebook.com/share/17o9JXHGrS/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><FacebookRounded /></a>
             <a href="https://www.instagram.com/thelearningedgeacademy_/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><Instagram sx={{ fontSize: 18 }} /></a>
-            {/* <a href="/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><YouTube sx={{ fontSize: 18 }} /></a> */}
           </div>
         </div>
 
@@ -66,13 +63,13 @@ const Footer = () => {
               <MapPin size={18} className="shrink-0" /> <span className="wrap-break-word">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</span>
             </a>
 
-            <a href="tel:+919911115947" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
-              <Phone size={18} className="shrink-0" /> <span>+91 9911115947</span>
-            </a>
+            <span className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
+              <Phone size={18} className="shrink-0" /> <a href="tel:+919911115947">+91 9911115947</a>, <a href="tel:+919911115948">+91 9911115948</a>
+            </span>
 
-            {/* <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
-              <Mail size={18} className="shrink-0" /><span className="wrap-break-word">hello@learningedge.in</span>
-            </a> */}
+            <a href="mailto:ashishtle0105@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
+              <Mail size={18} className="shrink-0" /><span className="wrap-break-word">ashishtle0105@gmail.com</span>
+            </a>
           </div>
         </div>
       </div>
@@ -80,7 +77,7 @@ const Footer = () => {
       <hr className="text-white/10" />
 
       <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-20 py-6 text-blue-200">
-        <p className="text-sm text-center">© 2026 The Learning Edge Academy. All rights reserved.</p>
+        <p className="text-sm text-center">© 2026 The Learning Edges Academy. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <NavLink to={'/privacy-policy'} className="hover:text-white transition duration-300">Privacy Policy</NavLink>
           <NavLink to={'/terms-and-conditions'} className="hover:text-white transition duration-300">Terms & Conditions</NavLink>

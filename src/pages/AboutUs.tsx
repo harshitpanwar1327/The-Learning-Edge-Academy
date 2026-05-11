@@ -51,7 +51,7 @@ const methodology = [
 const AboutUs = () => {
   return (
     <>
-      <Hero badge="About Us" title="A Decade of Shaping Futures in Gurgaon" description="The Learning Edge Academy was born from a simple belief — that personalized, rigorous mentoring can transform any motivated student into a high achiever." />
+      <Hero badge="About Us" title="A Decade of Shaping Futures in Gurgaon" description="The Learning Edges Academy was born from a simple belief — that personalized, rigorous mentoring can transform any motivated student into a high achiever." />
 
       <section className="py-20">
         <div className="mx-auto grid max-w-350 gap-6 px-6 lg:grid-cols-3 xl:px-10">
@@ -78,7 +78,7 @@ const AboutUs = () => {
               Founder&apos;s Note
             </div>
             <h2 className="max-w-155 text-4xl font-bold leading-tight tracking-[-1.5px] text-[#162B6F] md:text-5xl">"We don't just teach. We mentor for life."</h2>
-            <p className="mt-6 text-md  text-gray-600">When I started The Learning Edge in 2010, I wanted to build a place where every student felt seen — where academic ambition met personal care. Fifteen years later, that same philosophy guides every classroom, every test review, every parent meeting.</p>
+            <p className="mt-6 text-md  text-gray-600">When I started The Learning Edges in 2010, I wanted to build a place where every student felt seen — where academic ambition met personal care. Fifteen years later, that same philosophy guides every classroom, every test review, every parent meeting.</p>
             <p className="mt-5 text-[16px] leading-8 text-gray-600">If your child is ready to grow, we are ready to walk that path with them.</p>
 
             <div className="mt-8">

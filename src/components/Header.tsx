@@ -23,7 +23,7 @@ const Header = () => {
       <NavLink to="/" className="flex items-center gap-3">
         <img src={Logo} alt="Logo" className="w-10 h-10 rounded-xl shadow-[0_12px_30px_-10px_oklch(0.7_0.18_50/0.45)]" />
         <div>
-          <h2 className="font-bold text-[#032262]">The Learning Edge</h2>
+          <h2 className="font-bold text-[#032262]">The Learning Edges</h2>
           <p className="text-sm uppercase text-gray-500">Academy · Gurgaon</p>
         </div>
       </NavLink>
@@ -62,7 +62,7 @@ const Header = () => {
               <NavLink to="/" className="flex items-center gap-3">
                 <img src={Logo} alt="Logo" className="w-10 h-10 rounded-xl shadow-[0_12px_30px_-10px_oklch(0.7_0.18_50/0.45)]" />
                 <div>
-                  <h2 className="font-bold text-[#032262]">The Learning Edge</h2>
+                  <h2 className="font-bold text-[#032262]">The Learning Edges</h2>
                   <p className="text-sm uppercase text-gray-500">Academy · Gurgaon</p>
                 </div>
               </NavLink>

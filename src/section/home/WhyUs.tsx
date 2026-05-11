@@ -18,7 +18,7 @@ const WhyUs = () => {
                     <span className="h-1.5 w-1.5 rounded-full bg-orange-500" />
                     Why Choose Us
                 </div>
-                <h2 className="text-4xl font-bold tracking-[-1.5px] text-[#162B6F] md:text-5xl">The Learning Edge Difference</h2>
+                <h2 className="text-4xl font-bold tracking-[-1.5px] text-[#162B6F] md:text-5xl">The Learning Edges Difference</h2>
                 <p className="mt-5 text-lg leading-8 text-gray-600">Six pillars that make us Gurgaon's most trusted coaching institute.</p>
             </div>
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

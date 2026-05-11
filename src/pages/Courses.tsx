@@ -8,7 +8,7 @@ const programs = [
     icon: BookOpen, color: "from-sky-400 to-sky-600", tag: "Foundation",
     title: "Foundation Program (6–8)",
     desc: "Concept-first learning that lights the spark of curiosity early.",
-    subjects: ["Math","Science","Mental Ability","English"],
+    subjects: ["Math","Science","Social Science","English"],
     features: ["Concept building","Olympiad preparation (NSO/IMO)","Science & Math focus","Activity-based learning"],
   },
   {
@@ -22,7 +22,7 @@ const programs = [
     icon: Calculator, color: "from-red-400 to-indigo-700", tag: "Sr. Sec",
     title: "Senior Secondary (11–12)",
     desc: "Streams aligned with competitive exam aspirations.",
-    subjects: ["PCM","PCB","Commerce"],
+    subjects: ["PCM","PCB"],
     features: ["Stream-specialized teaching","Board + competitive integration","Advanced problem solving","Career counseling"],
   },
   {

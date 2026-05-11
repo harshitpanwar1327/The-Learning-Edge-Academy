@@ -7,21 +7,21 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | The Learning Edge Academy Gurugram</title>
-        <meta name="description" content="Read the Privacy Policy of The Learning Edge Academy, Gurugram. Learn how we collect, use and protect student and parent information for our coaching services." />
-        <meta name="keywords" content="privacy policy coaching institute, The Learning Edge Academy, Gurugram coaching institute privacy policy, student data policy" />
+        <title>Privacy Policy | The Learning Edges Academy Gurugram</title>
+        <meta name="description" content="Read the Privacy Policy of The Learning Edges Academy, Gurugram. Learn how we collect, use and protect student and parent information for our coaching services." />
+        <meta name="keywords" content="privacy policy coaching institute, The Learning Edges Academy, Gurugram coaching institute privacy policy, student data policy" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.thelearningedgeacademy.in/privacy-policy" />
-        <meta property="og:title" content="Privacy Policy | The Learning Edge Academy" />
-        <meta property="og:description" content="Learn how The Learning Edge Academy collects, uses and safeguards student information." />
-        <meta property="og:url" content="https://www.thelearningedgeacademy.in/privacy-policy" />
+        <link rel="canonical" href="https://www.thelearningedges.in/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy | The Learning Edges Academy" />
+        <meta property="og:description" content="Learn how The Learning Edges Academy collects, uses and safeguards student information." />
+        <meta property="og:url" content="https://www.thelearningedges.in/privacy-policy" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "The Learning Edge Academy",
-            url: "https://www.thelearningedgeacademy.in",
+            name: "The Learning Edges Academy",
+            url: "https://www.thelearningedges.in",
             telephone: "+91 9911115947",
             address: {
               "@type": "PostalAddress",
@@ -34,12 +34,12 @@ const PrivacyPolicy = () => {
         </script>
       </Helmet>
 
-      <Hero badge="Legal" title="Privacy Policy" description="Last updated on 11 May 2026. This Privacy Policy explains how The Learning Edge Academy in Gurugram collects, uses and protects student and parent information." />
+      <Hero badge="Legal" title="Privacy Policy" description="Last updated on 11 May 2026. This Privacy Policy explains how The Learning Edges Academy in Gurugram collects, uses and protects student and parent information." />
 
       <section className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16 max-w-7xl mx-auto">
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>1. Introduction</h2>
-          <p>The Learning Edge Academy ("we", "us", "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you visit our website or enroll in our coaching programs.</p>
+          <p>The Learning Edges Academy ("we", "us", "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you visit our website or enroll in our coaching programs.</p>
         </div>
 
         <div className='flex flex-col gap-3'>

@@ -3,7 +3,7 @@ import { Star, Quote } from "lucide-react";
 const reviews = [
   { quote: "My son's confidence in physics transformed completely. The mentors here treat each child as an individual.", name: "Mr. Mehta", role: "Parent" },
   { quote: "Excellent test series and personal feedback. They truly invest in the student.", name: "Mrs. Iyer", role: "Parent" },
-  { quote: "From struggling in math to scoring 98% — the credit goes entirely to The Learning Edge.", name: "Tanvi B.", role: "Class 10 Student" },
+  { quote: "From struggling in math to scoring 98% — the credit goes entirely to The Learning Edges.", name: "Tanvi B.", role: "Class 10 Student" },
 ];
 
 const ParentsReviews = () => {

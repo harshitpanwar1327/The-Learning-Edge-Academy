@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Phone, MapPin } from "lucide-react"
-// import { Mail } from "lucide-react"
+import { Phone, MapPin, Mail } from "lucide-react"
 import { lazy } from "react"
 import { toast } from "react-toastify";
 import { signInWithPopup } from "firebase/auth";
@@ -34,22 +33,22 @@ const contactInfo = [
     value: "+91 9911115947",
     link: "tel:+919911115947"
   },
-  // {
-  //   icon: Mail,
-  //   title: "Email",
-  //   value: "",
-  //   link: ""
-  // }
+  {
+    icon: Mail,
+    title: "Email",
+    value: "ashishtle0105@gmail.com",
+    link: "mailto:ashishtle0105@gmail.com"
+  }
 ]
 
 const faqs = [
   {
-    q: "How can I book a free demo class at The Learning Edge Academy?",
+    q: "How can I book a free demo class at The Learning Edges Academy?",
     a: "You can book a free demo class by filling out the contact form on this page or calling our counselors directly. Our team usually responds within 24 hours."
   },
   {
-    q: "Where is The Learning Edge Academy located in Gurugram?",
-    a: "The Learning Edge Academy is located at SCF 26, Basement, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001."
+    q: "Where is The Learning Edges Academy located in Gurugram?",
+    a: "The Learning Edges Academy is located at SCF 26, Basement, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001."
   },
   {
     q: "Do you provide coaching for NEET and IIT JEE preparation?",
@@ -72,8 +71,8 @@ const faqs = [
     a: "Yes, we provide academic counseling sessions to understand the student’s goals and recommend the best program accordingly."
   },
   {
-    q: "Why choose The Learning Edge Academy in Gurugram?",
-    a: "The Learning Edge Academy focuses on concept clarity, experienced faculty, personalized attention, regular tests and result-oriented preparation for school and competitive exams."
+    q: "Why choose The Learning Edges Academy in Gurugram?",
+    a: "The Learning Edges Academy focuses on concept clarity, experienced faculty, personalized attention, regular tests and result-oriented preparation for school and competitive exams."
   }
 ];
 
@@ -116,21 +115,21 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact The Learning Edge Academy | Best Coaching Institute in Gurugram</title>
-        <meta name="description" content="Contact The Learning Edge Academy in Gurugram for NEET, JEE and Class 6-12 coaching. Book a free demo class, visit our institute or speak with our counselors today." />
+        <title>Contact The Learning Edges Academy | Best Coaching Institute in Gurugram</title>
+        <meta name="description" content="Contact The Learning Edges Academy in Gurugram for NEET, JEE and Class 6-12 coaching. Book a free demo class, visit our institute or speak with our counselors today." />
         <meta name="keywords" content="contact coaching institute Gurugram, NEET coaching Gurugram, JEE coaching Gurgaon, tuition classes Gurugram, free demo coaching class" />
-        <link rel="canonical" href="https://thelearningedgeacademy.in/contact" />
-        <meta property="og:title" content="Contact The Learning Edge Academy" />
+        <link rel="canonical" href="https://thelearningedges.in/contact" />
+        <meta property="og:title" content="Contact The Learning Edges Academy" />
         <meta property="og:description" content="Book your free demo class for NEET, JEE and school coaching in Gurugram." />
-        <meta property="og:url" content="https://thelearningedgeacademy.in/contact" />
+        <meta property="og:url" content="https://thelearningedges.in/contact" />
         <meta property="og:type" content="website" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "The Learning Edge Academy",
-            url: "https://thelearningedgeacademy.in",
+            name: "The Learning Edges Academy",
+            url: "https://thelearningedges.in",
             telephone: "+91 9911115947",
             address: {
               "@type": "PostalAddress",
@@ -154,7 +153,7 @@ const Contact = () => {
         </script>
       </Helmet>
 
-      <Hero badge="Contact" title="Contact The Learning Edge Academy in Gurugram" description="Book a free demo class for NEET, JEE and Classes 6-12 coaching in Gurugram. Visit our campus or talk to our academic counselors today." />
+      <Hero badge="Contact" title="Contact The Learning Edges Academy in Gurugram" description="Book a free demo class for NEET, JEE and Classes 6-12 coaching in Gurugram. Visit our campus or talk to our academic counselors today." />
 
       <section className="flex flex-col lg:flex-row gap-8 py-12 lg:py-24 px-4 lg:px-16">
         <form onSubmit={handleSubmit(onSubmit)} className="w-full lg:w-3/5 flex flex-col gap-4 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl">
@@ -250,12 +249,8 @@ const Contact = () => {
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-md flex flex-col gap-4">
             <h3 className="font-semibold">Coaching Hours</h3>
             <div className="flex items-center justify-between gap-4 text-sm text-[hsl(215_15%_50%)]">
-              <span>Monday – Saturday</span>
-              <span className="text-black">3:30 PM – 8:30 PM</span>
-            </div>
-            <div className="flex items-center justify-between gap-4 text-sm text-[hsl(215_15%_50%)]">
-              <span>Sunday</span>
-              <span className="text-black">09:00 AM – 12:30 PM</span>
+              <span>Monday – Sunday</span>
+              <span className="text-black">9:00 AM – 9:00 PM</span>
             </div>
           </div>
         </div>

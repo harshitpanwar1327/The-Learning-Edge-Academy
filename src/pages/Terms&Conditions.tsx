@@ -7,22 +7,22 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>Terms & Conditions | The Learning Edge Academy Gurugram</title>
-        <meta name="description" content="Read the Terms & Conditions of The Learning Edge Academy, Gurugram regarding admissions, fees, refunds, student conduct and coaching policies." />
-        <meta name="keywords" content="terms and conditions coaching institute, refund policy coaching classes, The Learning Edge Academy terms, Gurugram coaching policies" />
+        <title>Terms & Conditions | The Learning Edges Academy Gurugram</title>
+        <meta name="description" content="Read the Terms & Conditions of The Learning Edges Academy, Gurugram regarding admissions, fees, refunds, student conduct and coaching policies." />
+        <meta name="keywords" content="terms and conditions coaching institute, refund policy coaching classes, The Learning Edges Academy terms, Gurugram coaching policies" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.thelearningedgeacademy.in/terms-and-conditions" />
-        <meta property="og:title" content="Terms & Conditions | The Learning Edge Academy" />
-        <meta property="og:description" content="Terms, admission policies, fee structure, refunds and code of conduct for students at The Learning Edge Academy." />
-        <meta property="og:url" content="https://www.thelearningedgeacademy.in/terms-and-conditions" />
+        <link rel="canonical" href="https://www.thelearningedges.in/terms-and-conditions" />
+        <meta property="og:title" content="Terms & Conditions | The Learning Edges Academy" />
+        <meta property="og:description" content="Terms, admission policies, fee structure, refunds and code of conduct for students at The Learning Edges Academy." />
+        <meta property="og:url" content="https://www.thelearningedges.in/terms-and-conditions" />
         <meta property="og:type" content="website" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "The Learning Edge Academy",
-            url: "https://www.thelearningedgeacademy.in",
+            name: "The Learning Edges Academy",
+            url: "https://www.thelearningedges.in",
             telephone: "+91 9911115947",
             address: {
               "@type": "PostalAddress",
@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
       <section className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16 max-w-7xl mx-auto">
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>1. Acceptance of Terms</h2>
-          <p>By accessing this website or enrolling in any program offered by The Learning Edge Academy, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.</p>
+          <p>By accessing this website or enrolling in any program offered by The Learning Edges Academy, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use our services.</p>
         </div>
 
         <div className='flex flex-col gap-3'>
@@ -72,7 +72,7 @@ const TermsAndConditions = () => {
 
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>7. Use of Study Material</h2>
-          <p>All study material, recorded lectures, tests and digital content provided are the intellectual property of The Learning Edge Academy. Sharing, reproducing or selling this material is strictly prohibited.</p>
+          <p>All study material, recorded lectures, tests and digital content provided are the intellectual property of The Learning Edges Academy. Sharing, reproducing or selling this material is strictly prohibited.</p>
         </div>
 
         <div className='flex flex-col gap-3'>
@@ -87,7 +87,7 @@ const TermsAndConditions = () => {
 
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>10. Limitation of Liability</h2>
-          <p>To the fullest extent permitted by law, The Learning Edge Academy shall not be liable for any indirect, incidental or consequential damages arising from the use of our services or website.</p>
+          <p>To the fullest extent permitted by law, The Learning Edges Academy shall not be liable for any indirect, incidental or consequential damages arising from the use of our services or website.</p>
         </div>
 
         <div className='flex flex-col gap-3'>

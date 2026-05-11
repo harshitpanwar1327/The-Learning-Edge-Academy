@@ -26,7 +26,7 @@ const Gallery = () => {
 
   return (
     <>
-      <Hero badge="Gallery" title="Moments From Our Campus" description="Classrooms, events and the everyday energy that makes The Learning Edge feel like home." />
+      <Hero badge="Gallery" title="Moments From Our Campus" description="Classrooms, events and the everyday energy that makes The Learning Edges feel like home." />
 
       <section className="py-12">
         <div className="mx-auto max-w-350 px-6 xl:px-10">

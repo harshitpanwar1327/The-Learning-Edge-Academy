@@ -61,7 +61,7 @@ const Home = () => {
 
           <div className="relative animate-[scale-in_0.4s_ease-out_both]">
             <div className="overflow-hidden rounded-4xl border border-white shadow-2xl">
-              <img src={hero} alt="Students learning at The Learning Edge Academy" className="h-auto w-full object-cover"/>
+              <img src={hero} alt="Students learning at The Learning Edges Academy" className="h-auto w-full object-cover"/>
               <div className="absolute inset-0 bg-linear-to-tr from-[#162B6F]/20 to-transparent rounded-4xl" />
             </div>
             <div className="absolute -left-4 top-10 rounded-2xl border border-white/20 bg-white/40 p-4 shadow-xl backdrop-blur-xl md:-left-8">

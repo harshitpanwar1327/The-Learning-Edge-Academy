@@ -1,5 +1,4 @@
-import { Instagram, WhatsApp } from "@mui/icons-material";
-// import { Facebook, YouTube } from "@mui/icons-material";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 
 const socials = [
   {
@@ -14,18 +13,12 @@ const socials = [
     icon: Instagram,
     bg: "bg-[hsl(330,70%,50%)]",
   },
-  // {
-  //   label: "Facebook",
-  //   href: "https://www.facebook.com/p/OMEGA-TUTORIALS-100057223279205/",
-  //   icon: Facebook,
-  //   bg: "bg-[hsl(220,70%,50%)]",
-  // },
-  // {
-  //   label: "YouTube",
-  //   href: "https://www.youtube.com/@omegatutorials8326",
-  //   icon: YouTube,
-  //   bg: "bg-[hsl(0,70%,50%)]",
-  // },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/p/OMEGA-TUTORIALS-100057223279205/",
+    icon: Facebook,
+    bg: "bg-[hsl(220,70%,50%)]",
+  }
 ];
 
 const SocialLinks = () => {

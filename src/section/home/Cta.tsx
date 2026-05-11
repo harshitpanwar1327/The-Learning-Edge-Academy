@@ -11,7 +11,7 @@ const Cta = () => {
 
                 <div className="relative z-10">
                     <h2 className="text-4xl font-bold tracking-[-1.5px] md:text-5xl">Start Your Success Journey Today</h2>
-                    <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/80">Join 200+ students who chose The Learning Edge for their academic transformation.</p>
+                    <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/80">Join 200+ students who chose The Learning Edges for their academic transformation.</p>
                     <div className="mt-10 flex flex-wrap justify-center gap-4">
                         <NavLink to="/courses">
                             <button className="inline-flex h-12 items-center justify-center whitespace-nowrap rounded-xl bg-linear-to-r from-[#F59E0B] to-[#F97316] px-8 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:scale-[1.02]">Join Now</button>
