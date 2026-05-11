@@ -14,7 +14,7 @@ interface FAQProps {
 }
 
 const FAQ: React.FC<FAQProps> = ({ faqs }) => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
