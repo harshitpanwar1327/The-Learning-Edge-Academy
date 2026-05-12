@@ -1,0 +1,1 @@
+export { default as Faculty1 } from "./Faculty1.jpg";
