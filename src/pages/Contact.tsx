@@ -6,7 +6,7 @@ import { signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from "../firebase/Firebase";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-import ClipLoader from "react-spinners/ClipLoader";
+import { ClipLoader } from "react-spinners";
 import { Helmet } from "react-helmet-async";
 
 const Hero = lazy(()=>import("../section/Hero"));
@@ -84,8 +84,6 @@ const Contact = () => {
   const onSubmit = async (data: FormData) => {
     try {
       setLoading(true);
-      
-      console.log(data);
 
       const result = await signInWithPopup(auth, googleProvider);
       const user = result.user;
