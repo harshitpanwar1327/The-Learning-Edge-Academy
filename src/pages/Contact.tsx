@@ -84,6 +84,8 @@ const Contact = () => {
   const onSubmit = async (data: FormData) => {
     try {
       setLoading(true);
+      
+      console.log(data);
 
       const result = await signInWithPopup(auth, googleProvider);
       const user = result.user;
@@ -96,7 +98,7 @@ const Contact = () => {
           name: data.name,
           phone: data.phone,
           school: data.schoolName || "Not provided",
-          interestedProgram: data.interestedProgram || "Not provided",
+          interestedProgram : data.interestedProgram || "Not provided",
           message: data.message,
         },
         import.meta.env.VITE_PUBLIC_KEY
