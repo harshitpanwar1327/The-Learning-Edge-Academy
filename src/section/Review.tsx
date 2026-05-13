@@ -15,9 +15,9 @@ const Review: React.FC<ReviewProps> = ({ reviews }) => {
     <section className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16">
       <div className="flex flex-col items-center gap-4">
         <div className="flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-xs font-semibold uppercase text-[#F0532B]">
-        <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> Parent Voices
+        <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> Student & Parent Reviews
         </div>
-        <h2 className="text-2xl md:text-5xl text-[#1B1F66] text-center font-semibold">Trusted by Parents</h2>
+        <h2 className="text-2xl md:text-5xl text-[#1B1F66] text-center font-semibold">Parent & Student Reviews for The Learning Edges Academy</h2>
       </div>
 
       <div className="grid md:grid-cols-3 gap-6">
@@ -27,7 +27,7 @@ const Review: React.FC<ReviewProps> = ({ reviews }) => {
               <Quote className="h-6 w-6" />
             </div>
             <p className="text-gray-500">"{review.review}"</p>
-            <div className="flex items-center gap-1 text-[#F0532B]">
+            <div className="flex items-center gap-1 text-[#F0532B]" aria-label="5 star review">
               {Array.from({ length: 5 }).map((_, k) => (
                 <Star key={k} className="h-4 w-4 fill-current"/>
               ))}

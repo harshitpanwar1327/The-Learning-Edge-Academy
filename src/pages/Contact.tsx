@@ -156,7 +156,7 @@ const Contact = () => {
       <Hero badge="Contact" title="Contact The Learning Edges Academy in Gurugram" description="Book a free demo class for NEET, JEE and Classes 6-12 coaching in Gurugram. Visit our campus or talk to our academic counselors today." />
 
       <section className="flex flex-col lg:flex-row gap-8 py-12 lg:py-24 px-4 lg:px-16">
-        <form onSubmit={handleSubmit(onSubmit)} className="w-full lg:w-3/5 flex flex-col gap-4 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl">
+        <form onSubmit={handleSubmit(onSubmit)} className="self-start w-full lg:w-3/5 flex flex-col gap-4 rounded-3xl border border-gray-200 bg-white p-6 shadow-xl">
           <div className="flex flex-col gap-1">
             <h2 className="text-xl font-bold">Book Your Free Demo Class</h2>
             <p className="text-sm text-gray-500">Fill the form — our team responds within 24 hours.</p>

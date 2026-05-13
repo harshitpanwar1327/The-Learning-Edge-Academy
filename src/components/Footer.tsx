@@ -59,16 +59,16 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Contact Us</h3>
           <div className="flex flex-col gap-2 opacity-80">
-            <a href="https://maps.app.goo.gl/Z4wizfWmpQhLTLbc7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
-              <MapPin size={18} className="shrink-0" /> <span className="wrap-break-word">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</span>
+            <a href="https://maps.app.goo.gl/Z4wizfWmpQhLTLbc7" target="_blank" rel="noopener noreferrer" className="w-fit flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration">
+              <MapPin size={18} className="shrink-0 text-[#F0532B]" /> <span className="wrap-break-word">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</span>
             </a>
 
-            <span className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
-              <Phone size={18} className="shrink-0" /> <a href="tel:+919911115947">+91 9911115947</a>, <a href="tel:+919911115948">+91 9911115948</a>
-            </span>
+            <a href="tel:+919911115947" className="w-fit flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
+              <Phone size={18} className="shrink-0 text-[#F0532B]" /> <span>+91 9911115947</span>
+            </a>
 
-            <a href="mailto:ashishtle0105@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
-              <Mail size={18} className="shrink-0" /><span className="wrap-break-word">ashishtle0105@gmail.com</span>
+            <a href="mailto:ashishtle0105@gmail.com" target="_blank" rel="noopener noreferrer" className="w-fit flex items-center gap-2 cursor-pointer hover:text-[#F0532B] transition duration break-all">
+              <Mail size={18} className="shrink-0 text-[#F0532B]" /><span className="wrap-break-word">ashishtle0105@gmail.com</span>
             </a>
           </div>
         </div>

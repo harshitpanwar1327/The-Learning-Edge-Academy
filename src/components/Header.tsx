@@ -16,7 +16,7 @@ const navItems = [
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
-  const navClass = ({ isActive }: { isActive: boolean }) => isActive ? "w-full lg:w-fit px-4 py-2 bg-blue-100 rounded-xl font-semibold text-sm" : "w-full lg:w-fit px-4 py-2 rounded-xl hover:bg-blue-50 transition duration-300";
+  const navClass = ({ isActive }: { isActive: boolean }) => isActive ? "w-full lg:w-fit px-4 py-2 bg-blue-100 rounded-xl font-medium text-sm" : "w-full lg:w-fit px-4 py-2 rounded-xl hover:bg-blue-50 transition duration-300";
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border border-gray-200 p-4 md:px-8 flex items-center justify-between gap-4">
