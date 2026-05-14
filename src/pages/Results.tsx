@@ -23,9 +23,9 @@ const toppers = [
 ];
 
 const reviews = [
-  { review: "My son's confidence in physics transformed completely. The mentors here treat each child as an individual.", name: "Mr. Mehta", role: "Parent" },
-  { review: "Excellent test series and personal feedback. They truly invest in the student.", name: "Mrs. Iyer", role: "Parent" },
-  { review: "From struggling in math to scoring 98% — the credit goes entirely to The Learning Edges.", name: "Tanvi B.", role: "Class 10 Student" }
+  { review: "I would highly recommend The Learning Edge Academy. Their way of teaching is amazing. They are very supportive, motivating, and always ready to solve doubts.", name: "Jagriti Madaan", role: "Student" },
+  { review: "One of the best coaching for IIT-JEE. Ashish sir Maths is excellent-simple, clear and very effective. Highly recommended.", name: "Rabia Akhtar", role: "Student" },
+  { review: "I have recently joined the academy and i have found myself imroving my maths already. ....Highly recommended", name: "Ashima Sharma", role: "Student" }
 ];
 
 const Results = () => {

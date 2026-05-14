@@ -44,9 +44,9 @@ const faculty = [
 ];
 
 const reviews = [
-  { review: "The personalized mentorship completely changed how I approach problems. The faculty truly cares.", name: "Aarav M.", role: "JEE Advanced AIR 287" },
-  { review: "My daughter went from average to top of her class. The weekly tests and parent reports keep us aligned.", name: "Mrs. Sharma", role: "Parent" },
-  { review: "NEET prep here was rigorous and joyful at the same time. Best decision of my academic journey.", name: "Ishita S.", role: "NEET AIR 642" }
+  { review: "The teachers are very supportive and explains concept clearly. The learning environment is also great", name: "Gudiya Singh", role: "Student" },
+  { review: "The teachers are highly knowledgelable and explain concepts of Maths and Science in a very clear and simple way. My child has shown great improvement in understanding and confidence after joining.", name: "Shveta Bansal", role: "Parent" },
+  { review: "I have been studying at this coaching institute for one year and It has been a great experince. I have improved a lot in my studies ....Highly recommended.", name: "Vikas Rana", role: "Student" }
 ];
 
 const Home = () => {
