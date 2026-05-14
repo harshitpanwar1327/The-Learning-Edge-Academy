@@ -29,9 +29,11 @@ const timeline = [
 ];
 
 const faculty = [
-  { name: "Dr. Anjali Kapoor", img: Icons.Faculty1, subject: "Mathematics", exp: "14+ years", qual: "PhD, IIT Delhi" },
-  { name: "Prof. Rohit Sharma", img: Icons.Faculty1, subject: "Physics", exp: "12+ years", qual: "M.Tech, IIT Bombay" },
-  { name: "Dr. Meera Iyer", img: Icons.Faculty1, subject: "Biology", exp: "10+ years", qual: "MBBS, AIIMS Delhi" }
+  { name: "Ashish Sir", img: Icons.Faculty1, subject: "Maths", exp: "27+ years", qual: "M.Sc, PGT" },
+  { name: "Dr. Nishchal Khanna", img: Icons.Faculty1, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
+  { name: "Vichy Sir", img: Icons.Faculty1, subject: "Physics", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Mr. Sanjay Kumar", img: Icons.Faculty1, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
+  { name: "Pooja Gupta", img: Icons.Faculty1, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
 ];
 
 const AboutUs = () => {
@@ -98,7 +100,7 @@ const AboutUs = () => {
           <p className="text-lg text-gray-500">If your child is ready to grow, we are ready to walk that path with them.</p>
 
           <div>
-            <h4 className="font-bold text-[#1B1F66]">Dr. Anjali Kapoor</h4>
+            <h4 className="font-bold text-[#1B1F66]">Mr. Ashish Shah</h4>
             <p className="text-sm text-gray-500">Founder & Director</p>
           </div>
         </div>

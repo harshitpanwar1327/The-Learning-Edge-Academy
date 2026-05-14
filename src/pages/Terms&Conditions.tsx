@@ -97,7 +97,7 @@ const TermsAndConditions = () => {
 
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>12. Contact Us</h2>
-          <p>For questions regarding these Terms, write to <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">hello@learningedge.in</a> or visit us at:</p>
+          <p>For questions regarding these Terms, write to <a href="mailto:ashishtle0105@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">ashishtle0105@gmail.com</a> or visit us at:</p>
           <div className="flex flex-col gap-1">
             <p>Address: <a href="https://maps.app.goo.gl/Z4wizfWmpQhLTLbc7" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</a></p>
             <p>Phone: <a href="tel:+919911115947" className="text-[#F0532B]">+91 9911115947</a></p>

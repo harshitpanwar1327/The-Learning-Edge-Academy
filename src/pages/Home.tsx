@@ -21,7 +21,7 @@ const courses = [
 ];
 
 const whyUs = [
-  { icon: Users, title: "Experienced Faculty", desc: "Mentors from IITs, AIIMS & top universities with 10+ yrs experience." },
+  { icon: Users, title: "Experienced Faculty", desc: "Mentors from top coaching institutes with 15+ yrs experience." },
   { icon: Target, title: "Personalized Attention", desc: "Small batches of 18–22 students for one-on-one mentorship." },
   { icon: FileCheck, title: "Weekly Tests", desc: "Continuous assessment with detailed performance analytics." },
   { icon: MessageSquare, title: "Doubt Sessions", desc: "Daily doubt-clearing windows so no question goes unanswered." },
@@ -36,9 +36,11 @@ const results = [
 ];
 
 const faculty = [
-  { name: "Dr. Anjali Kapoor", img: TeacherIcons.Faculty1, subject: "Mathematics", exp: "14+ years", qual: "PhD, IIT Delhi" },
-  { name: "Prof. Rohit Sharma", img: TeacherIcons.Faculty1, subject: "Physics", exp: "12+ years", qual: "M.Tech, IIT Bombay" },
-  { name: "Dr. Meera Iyer", img: TeacherIcons.Faculty1, subject: "Biology", exp: "10+ years", qual: "MBBS, AIIMS Delhi" },
+  { name: "Ashish Sir", img: TeacherIcons.Faculty1, subject: "Maths", exp: "27+ years", qual: "M.Sc, PGT" },
+  { name: "Dr. Nishchal Khanna", img: TeacherIcons.Faculty1, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
+  { name: "Vichy Sir", img: TeacherIcons.Faculty1, subject: "Physics", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty1, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
+  { name: "Pooja Gupta", img: TeacherIcons.Faculty1, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
 ];
 
 const reviews = [

@@ -29,7 +29,7 @@ const FAQ: React.FC<FAQProps> = ({ faqs }) => {
 
       <div className="flex flex-col gap-3">
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-gray-200 p-4 rounded-2xl cursor-pointer" onClick={() => toggleFAQ(index)}>
+          <div key={index} className="bg-white border border-gray-200 p-4 rounded-2xl cursor-pointer" onClick={() => toggleFAQ(index)}>
             <div className="flex justify-between items-center">
               <h3 className="font-semibold">{faq.q}</h3>
               <ChevronDown size={18} className={`${openIndex===index ? 'rotate-180' : ''}`} />

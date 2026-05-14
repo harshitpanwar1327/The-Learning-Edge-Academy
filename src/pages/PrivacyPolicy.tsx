@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
 
         <div className='flex flex-col gap-3'>
           <h2 className='text-2xl font-bold text-[#1B1F66]'>8. Your Rights</h2>
-          <p>You may request access, correction or deletion of your personal information by contacting us at <a href="mailto:hello@learningedge.in" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">hello@learningedge.in</a>. We will respond within a reasonable timeframe.</p>
+          <p>You may request access, correction or deletion of your personal information by contacting us at <a href="mailto:ashishtle0105@gmail.com" target="_blank" rel="noopener noreferrer" className="text-[#F0532B]">ashishtle0105@gmail.com</a>. We will respond within a reasonable timeframe.</p>
         </div>
 
         <div className='flex flex-col gap-3'>
@@ -89,7 +89,7 @@ const PrivacyPolicy = () => {
             <p>SCF 26, Basment, Huda Market, Urban Estate, Sector 4, Gurugram, Haryana 122001</p>
           </div>
           <div className="flex flex-col gap-1">
-            <p>Email: <a href="mailto:hello@learningedge.in" className="text-[#F0532B]">hello@learningedge.in</a></p>
+            <p>Email: <a href="mailto:ashishtle0105@gmail.com" className="text-[#F0532B]">ashishtle0105@gmail.com</a></p>
             <p>Phone: <a href="tel:+919911115947" className="text-[#F0532B]">+91 9911115947</a></p>
           </div>
         </div>
