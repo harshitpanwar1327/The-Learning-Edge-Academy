@@ -30,9 +30,9 @@ const whyUs = [
 ];
 
 const results = [
-  { name: "Aarav Mehta", img: TopperIcons.Student1, course: "JEE Advanced", score: "AIR 287", year: "2024" },
-  { name: "Ishita Sharma", img: TopperIcons.Student2, course: "NEET", score: "AIR 642", year: "2024" },
-  { name: "Kabir Verma", img: TopperIcons.Student1, course: "CBSE Class 12 PCM", score: "98.4%", year: "2024" }
+  { name: "Rabani Marwah", img: TopperIcons.Student1, course: "Maths 10th", score: "100", year: "2025" },
+  { name: "Manya", img: TopperIcons.Student2, course: "JEE-MAIN", score: "99.96%ile  AIR 2493", year: "2025" },
+  { name: "Mridul", img: TopperIcons.Student2, course: "Physics 12th", score: "98", year: "2025" }
 ];
 
 const faculty = [

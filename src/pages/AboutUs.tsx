@@ -95,9 +95,11 @@ const AboutUs = () => {
             <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> Founder&apos;s Note
           </div>
 
-          <h2 className="text-2xl md:text-5xl text-[#1B1F66] font-semibold">"We don't just teach. We mentor for life."</h2>
-          <p className="text-lg text-gray-500">When I started The Learning Edges in 2010, I wanted to build a place where every student felt seen — where academic ambition met personal care. Fifteen years later, that same philosophy guides every classroom, every test review, every parent meeting.</p>
-          <p className="text-lg text-gray-500">If your child is ready to grow, we are ready to walk that path with them.</p>
+          <h2 className="text-2xl md:text-5xl text-[#1B1F66] font-semibold">“Every Student Has Potential — Our Job Is to Help Them Discover It.”</h2>
+          <p className="text-lg text-gray-500">At The Learning Edges Academy, we believe education is not just about marks or exams — it is about building confidence, discipline, curiosity, and the courage to dream bigger. Since the very beginning, our mission has been simple: to create a learning environment where every student feels supported, motivated, and capable of achieving excellence.</p>
+          <p className="text-lg text-gray-500">Every child learns differently, and that is why we focus not only on teaching concepts, but on understanding each student personally. We guide them through challenges, celebrate their progress, and help them develop the mindset needed for lifelong success.</p>
+          <p className="text-lg text-gray-500">To all our students — remember that success is not defined by perfection, but by consistency, effort, and the willingness to keep learning. Believe in yourself, stay focused, and never be afraid to ask questions or aim higher.</p>
+          <p className="text-lg text-gray-500">We are proud to be a part of your journey, and we remain committed to walking beside you every step of the way.</p>
 
           <div>
             <h4 className="font-bold text-[#1B1F66]">Mr. Ashish Shah</h4>
