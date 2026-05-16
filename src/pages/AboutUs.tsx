@@ -31,10 +31,10 @@ const timeline = [
 
 const faculty = [
   { name: "Ashish Sir", img: Icons.Faculty1, subject: "Maths", exp: "27+ years", qual: "M.Sc, PGT" },
-  { name: "Dr. Nishchal Khanna", img: Icons.Faculty1, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
-  { name: "Vichy Sir", img: Icons.Faculty1, subject: "Physics", exp: "15+ years", qual: "M.Sc, PGT" },
-  { name: "Mr. Sanjay Kumar", img: Icons.Faculty1, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
-  { name: "Pooja Gupta", img: Icons.Faculty1, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
+  // { name: "Dr. Nishchal Khanna", img: Icons.Faculty2, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
+  // { name: "Vicky Sir", img: Icons.Faculty2, subject: "Chemistry", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Mr. Sanjay Kumar", img: Icons.Faculty4, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
+  // { name: "Pooja Gupta", img: Icons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
 ];
 
 const AboutUs = () => {

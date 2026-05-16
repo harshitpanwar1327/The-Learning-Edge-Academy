@@ -9,16 +9,16 @@ const Hero = lazy(()=>import("../section/Hero"));
 const categories = ["All", "Classroom", "Infrastructure", "Events"];
 
 const galleryItems = [
-  { src: Icons.Events1, title: "Concept-Based Teaching in Action", cat: "Classroom" },
-  { src: Icons.Events2, title: "Interactive Doubt Solving Session", cat: "Classroom" },
-  { src: Icons.Events1, title: "Personal Attention for Every Student", cat: "Classroom" },
-  { src: Icons.Events2, title: "Focused Classroom Learning", cat: "Classroom" },
-  { src: Icons.Events1, title: "Modern Classroom Environment", cat: "Infrastructure" },
-  { src: Icons.Events2, title: "Comfortable Learning Spaces", cat: "Infrastructure" },
-  { src: Icons.Events1, title: "Well-Equipped Study Rooms", cat: "Infrastructure" },
-  { src: Icons.Events2, title: "Reception", cat: "Infrastructure" },
-  { src: Icons.Events1, title: "Cyber Security Awareness", cat: "Events" },
-  { src: Icons.Events2, title: "Student Engagement Activities", cat: "Events" },
+  // { src: Icons.Event1, title: "Concept-Based Teaching in Action", cat: "Classroom" },
+  // { src: Icons.Events2, title: "Interactive Doubt Solving Session", cat: "Classroom" },
+  // { src: Icons.Events1, title: "Personal Attention for Every Student", cat: "Classroom" },
+  { src: Icons.Classroom1, title: "Focused Classroom Learning", cat: "Classroom" },
+  // { src: Icons.Events1, title: "Modern Classroom Environment", cat: "Infrastructure" },
+  // { src: Icons.Events2, title: "Comfortable Learning Spaces", cat: "Infrastructure" },
+  // { src: Icons.Events1, title: "Well-Equipped Study Rooms", cat: "Infrastructure" },
+  // { src: Icons.Events2, title: "Reception", cat: "Infrastructure" },
+  // { src: Icons.Events1, title: "Cyber Security Awareness", cat: "Events" },
+  // { src: Icons.Events2, title: "Student Engagement Activities", cat: "Events" },
 ];
 
 const Gallery = () => {
