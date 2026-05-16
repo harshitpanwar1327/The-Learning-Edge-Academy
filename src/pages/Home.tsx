@@ -32,15 +32,15 @@ const whyUs = [
 const results = [
   { name: "Rabani Marwah", img: TopperIcons.Student1, course: "Maths 10th", score: "100", year: "2025" },
   { name: "Manya", img: TopperIcons.Student2, course: "JEE-MAIN", score: "99.96%ile  AIR 2493", year: "2025" },
-  { name: "Mridul", img: TopperIcons.Student2, course: "Physics 12th", score: "98", year: "2025" }
+  { name: "Mrridul", img: TopperIcons.Mrridul, course: "Physics 12th", score: "98", year: "2025" }
 ];
 
 const faculty = [
   { name: "Ashish Sir", img: TeacherIcons.Faculty1, subject: "Maths", exp: "27+ years", qual: "M.Sc, PGT" },
-  { name: "Dr. Nishchal Khanna", img: TeacherIcons.Faculty1, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
-  { name: "Vichy Sir", img: TeacherIcons.Faculty1, subject: "Physics", exp: "15+ years", qual: "M.Sc, PGT" },
-  { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty1, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
-  { name: "Pooja Gupta", img: TeacherIcons.Faculty1, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
+  { name: "Dr. Nishchal Khanna", img: TeacherIcons.Faculty2, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
+  { name: "Vicky Sir", img: TeacherIcons.Faculty2, subject: "Chemistry", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty4, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
+  { name: "Pooja Gupta", img: TeacherIcons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
 ];
 
 const reviews = [

@@ -21,11 +21,12 @@ const methodology = [
 ];
 
 const timeline = [
-  { year: "2010", title: "Founded in Gurugram", desc: "Started with a single classroom and 18 students in Sector 47, Gurgaon." },
-  { year: "2014", title: "First JEE Topper", desc: "Our first AIR under 1000 in JEE Advanced — a defining moment." },
-  { year: "2017", title: "NEET Wing Launched", desc: "Expanded into medical entrance with a dedicated biology faculty team." },
-  { year: "2020", title: "Online & Offline Coaching Expansiong", desc: "Pioneered blended online + offline classes during the pandemic." },
-  { year: "2024", title: "5000+ Alumni Strong", desc: "Crossed 5000 students mentored with 95% selection rate." },
+  { year: "2009", title: "The Beginning of The Learning Edges", desc: "Started with a vision to make quality education accessible through personalized mentoring and concept-based learning." },
+  { year: "2012", title: "Building Academic Excellence", desc: "Expanded faculty strength and introduced structured preparation programs for board exams and competitive entrances." },
+  { year: "2015", title: "First Major Success Stories", desc: "Students secured outstanding ranks in JEE and NEET, establishing The Learning Edges as a trusted academic institute." },
+  { year: "2018", title: "Technology-Driven Learning", desc: "Integrated smart classrooms, digital assessments, and performance analytics to improve student outcomes." },
+  { year: "2021", title: "Hybrid Learning Revolution", desc: "Successfully launched online + offline learning programs, enabling students to learn anytime with expert guidance." },
+  { year: "2024", title: "A Community of Achievers", desc: "Mentored thousands of students with consistent results, creating a strong network of successful alumni across India." }
 ];
 
 const faculty = [
