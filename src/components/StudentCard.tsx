@@ -1,27 +1,31 @@
-import { Trophy } from "lucide-react"
-
-interface StudentCardProps {
-  name: string;
-  img: string;
-  course: string;
-  score: string;
-  year: string;
+interface SubjectsData {
+  name: string,
+  marks: string
 }
 
-const StudentCard: React.FC<StudentCardProps> = ({ name, img, course, score, year }) => {
+interface StudentCardProps {
+  name: string,
+  grade: string,
+  subjects: SubjectsData[],
+  photo: string
+}
+
+const StudentCard: React.FC<StudentCardProps> = ({ name, grade, subjects, photo }) => {
   return (
-    <div className="group overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm hover:-translate-y-1 hover:shadow-xl transition duration-300">
-      <div className="relative aspect-square">
-        <img src={img} alt={`${name} ${course} topper from The Learning Edges Academy Gurugram`} loading="lazy" className="h-full w-full object-cover object-top transition duration-300 group-hover:scale-102"/>
-        <div className="absolute left-4 top-4 flex items-center gap-2 rounded-full bg-linear-to-r from-[#F59E0B] to-[#F97316] px-4 py-2 text-xs font-bold text-white shadow-lg">
-          <Trophy className="h-3.5 w-3.5" />{score}
+    <div className="bg-white rounded-xl p-6 shadow-[0_4px_24px_-6px_hsl(215_85%_45%/0.10)] flex flex-col items-center gap-4">
+      <img src={photo} alt={`${name} topper from Omega Tutorials coaching in Gurugram`} className="w-24 h-32 rounded-full object-cover border-4 border-orange-100" />
+        <div className="flex flex-col gap-1 text-center">
+          <p className="font-semibold">{name}</p>
+          <p className="text-sm text-gray-500">{grade}</p>
         </div>
-        <div className="absolute right-4 top-4 rounded-full bg-white px-4 py-2 text-xs font-bold text-[#1B1F66] shadow-sm">{year}</div>
-      </div>
-      <div className="p-5">
-        <h4 className="text-xl font-bold text-[#1B1F66]">{name}</h4>
-        <p className="text-sm text-gray-500">{course}</p>
-      </div>
+        <div className="w-full space-y-2">
+          {subjects.map((subject) => (
+            <div key={subject.name} className="flex items-center justify-between rounded-full bg-orange-100 px-4 py-2 text-xs font-medium text-[#F0532B]">
+              <span>{subject.name}</span>
+              <span>{subject.marks}</span>
+            </div>
+          ))}
+        </div>
     </div>
   )
 }

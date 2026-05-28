@@ -30,9 +30,33 @@ const whyUs = [
 ];
 
 const results = [
-  // { name: "Rabani Marwah", img: TopperIcons.Student1, course: "Maths 10th", score: "100", year: "2025" },
-  // { name: "Manya", img: TopperIcons.Student2, course: "JEE-MAIN", score: "99.96%ile  AIR 2493", year: "2025" },
-  { name: "Mrridul", img: TopperIcons.Mrridul, course: "Physics 12th", score: "98", year: "2025" }
+  {
+    name: "Manya",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "98%" },
+      { name: "JEE-Mains", marks: "99.96%ile" }
+    ],
+    photo: TopperIcons.Manya,
+  },
+  {
+    name: "Mrridul",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "97.6%" },
+      { name: "JEE-Mains", marks: "98.6%ile" },
+    ],
+    photo: TopperIcons.Mrridul,
+  },
+  {
+    name: "Saksham",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "97%" },
+      { name: "JEE-Mains", marks: "99.8%ile" },
+    ],
+    photo: TopperIcons.Saksham,
+  }
 ];
 
 const faculty = [
@@ -240,7 +264,7 @@ const Home = () => {
           <p className="text-lg text-gray-500">Real students. Real outcomes. Every year, our students top boards and crack the toughest exams.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {results.map((topper)=>(
             <StudentCard {...topper} key={topper.name} />
           ))}

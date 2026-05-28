@@ -1,4 +1,7 @@
-export { default as Student1 } from "./student-1.jpg";
-export { default as Student2 } from "./student-2.jpg";
+export { default as Manya } from "./Manya.png";
+export { default as Saksham } from "./Saksham.png";
 export { default as Mrridul } from "./Mrridul.jpeg";
 export { default as Arvin } from "./Arvin.jpeg";
+export { default as Rabani } from "./Rabani.png";
+export { default as Aditya } from "./Aditya.png";
+export { default as Vidhi } from "./Vidhi.png";

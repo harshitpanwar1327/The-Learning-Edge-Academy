@@ -1,5 +1,5 @@
 import { lazy } from "react"
-import * as Icons from '../assets/toppers'
+import * as TopperIcons from '../assets/toppers'
 import { Helmet } from "react-helmet-async"
 
 const Hero = lazy(()=>import("../section/Hero"));
@@ -14,31 +14,69 @@ const stats = [
 ]
 
 const toppers = [
-  // { name: "Rabani Marwah", img: Icons.Student1, course: "Maths 10th", score: "100", year: "2025" },
-  // { name: "Aditya Agrawal", img: Icons.Student2, course: "Maths 10th", score: "100", year: "2025" },
-  // { name: "Nimit", img: Icons.Student2, course: "Maths 10th", score: "100", year: "2025" },
-  // { name: "Natasha", img: Icons.Student2, course: "Maths 10th", score: "100", year: "2025" },
-  // { name: "Manya", img: Icons.Student2, course: "JEE-MAIN", score: "99.96%ile  AIR 2493", year: "2025" },
-  // { name: "Nakul", img: Icons.Student2, course: "JEE-MAIN", score: "99.9%ile", year: "2025" },
-  // { name: "Saksham", img: Icons.Student1, course: "JEE-MAIN", score: "99.8%ile  AIR 3269", year: "2025" },
-  // { name: "Vidhi Bhardwaj", img: Icons.Student1, course: "Maths 10th", score: "99", year: "2025" },
-  // { name: "Aayush", img: Icons.Student2, course: "Maths 10th", score: "99", year: "2025" },
-  // { name: "Utkarsh", img: Icons.Student2, course: "JEE-MAIN", score: "98.2%ile", year: "2025" },
-  { name: "Mrridul", img: Icons.Mrridul, course: "Physics 12th", score: "98", year: "2025" },
-  // { name: "Riya Gupta", img: Icons.Student2, course: "Science 10th", score: "98", year: "2025" },
-  // { name: "Sumiya", img: Icons.Student2, course: "Maths 10th", score: "98", year: "2025" },
-  { name: "Arvin", img: Icons.Arvin, course: "Physics 12th", score: "97", year: "2025" },
-  // { name: "Sakshi", img: Icons.Student2, course: "JEE-MAIN", score: "97%ile", year: "2025" },
-  // { name: "Daksh", img: Icons.Student2, course: "Maths 10th", score: "97", year: "2025" },
-  // { name: "Ara Joshi", img: Icons.Student2, course: "Maths 10th", score: "97", year: "2025" },
-  // { name: "Jaya", img: Icons.Student2, course: "Maths 12th", score: "97", year: "2025" },
-  // { name: "Pratistha", img: Icons.Student2, course: "Maths 12th", score: "97", year: "2025" },
-  // { name: "Ranya", img: Icons.Student2, course: "Science 10th", score: "96", year: "2025" },
-  // { name: "Sahil", img: Icons.Student2, course: "Maths 10th", score: "96", year: "2025" },
-  // { name: "Akanksha", img: Icons.Student2, course: "Maths 10th", score: "96", year: "2025" },
-  // { name: "Aachal", img: Icons.Student2, course: "Physics 12th", score: "96", year: "2025" },
-  // { name: "Raghav", img: Icons.Student2, course: "Maths 10th", score: "95", year: "2025" },
-  // { name: "Vidhi", img: Icons.Student2, course: "Maths 12th", score: "95", year: "2025" }
+  {
+    name: "Manya",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "98%" },
+      { name: "JEE-Mains", marks: "99.96%ile" }
+    ],
+    photo: TopperIcons.Manya,
+  },
+  {
+    name: "Mrridul",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "97.6%" },
+      { name: "JEE-Mains", marks: "98.6%ile" },
+    ],
+    photo: TopperIcons.Mrridul,
+  },
+  {
+    name: "Saksham",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "97%" },
+      { name: "JEE-Mains", marks: "99.8%ile" },
+    ],
+    photo: TopperIcons.Saksham,
+  },
+  {
+    name: "Arvin",
+    grade: "Class 12th",
+    subjects: [
+      { name: "PCM", marks: "97%" },
+      { name: "JEE-Mains", marks: "98.7%ile" },
+    ],
+    photo: TopperIcons.Arvin,
+  },
+  {
+    name: "Rabani Marwah",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "100%" },
+      { name: "Science", marks: "99%" },
+    ],
+    photo: TopperIcons.Rabani,
+  },
+  {
+    name: "Aditya",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "100%" },
+      { name: "Science", marks: "96%" },
+    ],
+    photo: TopperIcons.Aditya,
+  },
+  {
+    name: "Vidhi",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "99%" },
+      { name: "Science", marks: "99%" },
+    ],
+    photo: TopperIcons.Vidhi,
+  },
 ];
 
 const reviews = [
@@ -97,7 +135,7 @@ const Results = () => {
           <div className="flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-xs font-semibold uppercase text-[#F0532B]">
             <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> Toppers
           </div>
-          <h2 className="text-2xl md:text-5xl text-[#1B1F66] text-center font-semibold">Our 2024 Achievers</h2>
+          <h2 className="text-2xl md:text-5xl text-[#1B1F66] text-center font-semibold">Top Performers from Our Coaching Classes in Gurugram</h2>
           <p className="text-lg text-gray-500">A glimpse of the students who turned ambition into achievement.</p>
         </div>
 
