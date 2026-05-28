@@ -15,7 +15,7 @@ const socials = [
   },
   {
     label: "Facebook",
-    href: "https://www.facebook.com/p/OMEGA-TUTORIALS-100057223279205/",
+    href: "https://www.facebook.com/share/17o9JXHGrS/",
     icon: Facebook,
     bg: "bg-[hsl(220,70%,50%)]",
   }
