@@ -1,9 +1,34 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Instagram, FacebookRounded } from "@mui/icons-material"
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Logo from '../assets/Logo.png';
+import { scroller } from "react-scroll";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleScroll = (route: string, section: string) => {
+    if (location.pathname !== route) {
+      navigate(route);
+
+      setTimeout(() => {
+        if (section) {
+          scroller.scrollTo(section, {
+            smooth: true,
+            duration: 600,
+          });
+        }
+      }, 200);
+    } else {
+      if (section) {
+        scroller.scrollTo(section, {
+          smooth: true,
+          duration: 600,
+        });
+      }
+    }
+  };
+
   return (
     <footer className="bg-[#032262] text-white flex flex-col">
       <div className="p-8 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-16">
@@ -48,11 +73,11 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-lg font-semibold">Programs</h3>
           <div className="flex flex-col gap-2 opacity-80">
-            <NavLink to={'/courses'} className="w-fit hover:text-[#F0532B] transition duration-300">Foundation (6–8)</NavLink>
-            <NavLink to={'/courses'} className="w-fit hover:text-[#F0532B] transition duration-300">Boards (10-12)</NavLink>
-            <NavLink to={'/courses'} className="w-fit hover:text-[#F0532B] transition duration-300">Senior Secondary (11–12)</NavLink>
-            <NavLink to={'/courses'} className="w-fit hover:text-[#F0532B] transition duration-300">JEE Main & Advanced</NavLink>
-            <NavLink to={'/courses'} className="w-fit hover:text-[#F0532B] transition duration-300">NEET Preparation</NavLink>
+            <p onClick={()=>handleScroll("/courses", "courses")} className="w-fit hover:text-[#F0532B] transition duration-300 cursor-pointer">Foundation (6–8)</p>
+            <p onClick={()=>handleScroll("/courses", "courses")} className="w-fit hover:text-[#F0532B] transition duration-300 cursor-pointer">Boards (10-12)</p>
+            <p onClick={()=>handleScroll("/courses", "courses")} className="w-fit hover:text-[#F0532B] transition duration-300 cursor-pointer">Senior Secondary (11–12)</p>
+            <p onClick={()=>handleScroll("/courses", "courses")} className="w-fit hover:text-[#F0532B] transition duration-300 cursor-pointer">JEE Main & Advanced</p>
+            <p onClick={()=>handleScroll("/courses", "courses")} className="w-fit hover:text-[#F0532B] transition duration-300 cursor-pointer">NEET Preparation</p>
           </div>
         </div>
 

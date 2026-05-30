@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import { BookOpen, GraduationCap, Calculator, Beaker, Stethoscope, Check, Sparkles } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import { Element } from "react-scroll";
 
 const Hero = lazy(()=>import("../section/Hero"));
 const FAQ = lazy(()=>import("../section/FAQ"));
@@ -11,35 +12,35 @@ const programs = [
     title: "Foundation Program (6–8)",
     desc: "Concept-first learning that lights the spark of curiosity early.",
     subjects: ["Math", "Science", "Social Science", "English"],
-    features: ["Concept building", "Olympiad preparation (NSO/IMO)", "Science & Math focus", "Activity-based learning"],
+    features: ["Concept building", "Olympiad preparation (NSO/IMO)", "Science & Math focus", "Activity-based learning"]
   },
   {
     icon: GraduationCap, color: "from-indigo-500 to-purple-600", tag: "Boards",
     title: "Board Preparation (9–10)",
     desc: "Master CBSE with NTSE foundation and exam strategy.",
     subjects: ["Math", "Science", "Social Science", "English"],
-    features: ["CBSE preparation", "NTSE foundation", "Regular weekly tests", "Doubt clearing sessions"],
+    features: ["CBSE preparation", "NTSE foundation", "Regular weekly tests", "Doubt clearing sessions"]
   },
   {
     icon: Calculator, color: "from-red-400 to-indigo-700", tag: "Sr. Sec",
     title: "Senior Secondary (11–12)",
     desc: "Streams aligned with competitive exam aspirations.",
     subjects: ["PCM", "PCB"],
-    features: ["Stream-specialized teaching", "Board + competitive integration", "Advanced problem solving", "Career counseling"],
+    features: ["Stream-specialized teaching", "Board + competitive integration", "Advanced problem solving", "Career counseling"]
   },
   {
     icon: Beaker, color: "from-orange-500 to-rose-500", tag: "Engineering",
     title: "JEE Preparation",
     desc: "Crack JEE Main & Advanced with structured rigour.",
     subjects: ["Physics", "Chemistry", "Mathematics"],
-    features: ["JEE Main + Advanced", "Daily Practice Problems", "All-India mock test series", "Previous year analysis"],
+    features: ["JEE Main + Advanced", "Daily Practice Problems", "All-India mock test series", "Previous year analysis"]
   },
   {
     icon: Stethoscope, color: "from-emerald-500 to-teal-600", tag: "Medical",
     title: "NEET Preparation",
     desc: "Built for the medical aspirant — depth, clarity, discipline.",
     subjects: ["Physics", "Chemistry", "Biology"],
-    features: ["NCERT-focused mastery", "Biology specialization", "Bi-weekly test series", "NEET pattern revision"],
+    features: ["NCERT-focused mastery", "Biology specialization", "Bi-weekly test series", "NEET pattern revision"]
   },
 ];
 
@@ -113,7 +114,7 @@ const Courses = () => {
 
       <Hero badge="Courses" title="Coaching Courses in Gurugram for NEET, JEE & Classes 6-12" description="Explore expert coaching programs for school students and competitive exams including NEET, IIT JEE, CBSE and foundation preparation." />
 
-      <section className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16">
+      <Element name='courses' className="flex flex-col gap-8 py-12 lg:py-24 px-4 lg:px-16">
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-2 rounded-full bg-orange-100 px-4 py-2 text-xs font-semibold uppercase text-[#F0532B]">
             <span className="h-1.5 w-1.5 rounded-full bg-[#F0532B]" /> Programs
@@ -169,7 +170,7 @@ const Courses = () => {
             </div>
           ))}
         </div>
-      </section>
+      </Element>
 
       <FAQ faqs={faqs} />
     </>

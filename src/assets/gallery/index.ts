@@ -1,4 +1,3 @@
-export { default as Events2 } from "./Event2.jpg";
 export { default as Classroom1 } from "./Classroom1.jpeg";
 export { default as Classroom2 } from "./Classroom2.jpeg";
 export { default as Classroom3 } from "./Classroom3.jpeg";

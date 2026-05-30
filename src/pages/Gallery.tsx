@@ -6,14 +6,15 @@ import { Helmet } from "react-helmet-async";
 
 const Hero = lazy(()=>import("../section/Hero"));
 
-const categories = ["All", "Classroom", "Infrastructure", "Events"];
+// const categories = ["All", "Classroom", "Infrastructure", "Events"];
+const categories = ["All", "Classroom", "Events"];
 
 const galleryItems = [
   // { src: Icons.Events2, title: "Interactive Doubt Solving Session", cat: "Classroom" },
-  { src: Icons.Events1, title: "Student Engagement Activities", cat: "Events" },
+  { src: Icons.Classroom1, title: "Focused Classroom Learning", cat: "Classroom" },
   { src: Icons.Classroom2, title: "Concept-Based Teaching in Action", cat: "Classroom" },
   { src: Icons.Classroom3, title: "Personal Attention for Every Student", cat: "Classroom" },
-  { src: Icons.Classroom1, title: "Focused Classroom Learning", cat: "Classroom" },
+  { src: Icons.Events1, title: "Student Engagement Activities", cat: "Events" },
   // { src: Icons.Events1, title: "Modern Classroom Environment", cat: "Infrastructure" },
   // { src: Icons.Events2, title: "Comfortable Learning Spaces", cat: "Infrastructure" },
   // { src: Icons.Events1, title: "Well-Equipped Study Rooms", cat: "Infrastructure" },
