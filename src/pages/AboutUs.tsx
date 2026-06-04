@@ -34,7 +34,8 @@ const faculty = [
   // { name: "Dr. Nishchal Khanna", img: Icons.Faculty2, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
   // { name: "Vicky Sir", img: Icons.Faculty2, subject: "Chemistry", exp: "15+ years", qual: "M.Sc, PGT" },
   { name: "Mr. Sanjay Kumar", img: Icons.Faculty4, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
-  // { name: "Pooja Gupta", img: Icons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
+  // { name: "Pooja Gupta", img: Icons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Dr. N. Khanna", img: Icons.Faculty5, subject: "Biology", exp: "22+ years", qual: "PHD" }
 ];
 
 const AboutUs = () => {

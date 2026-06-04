@@ -64,7 +64,8 @@ const faculty = [
   // { name: "Dr. Nishchal Khanna", img: TeacherIcons.Faculty2, subject: "Physics", exp: "25+ years", qual: "M.Sc, PHD" },
   // { name: "Vicky Sir", img: TeacherIcons.Faculty2, subject: "Chemistry", exp: "15+ years", qual: "M.Sc, PGT" },
   { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty4, subject: "Chemistry", exp: "25+ years", qual: "M.Sc, PGT" },
-  // { name: "Pooja Gupta", img: TeacherIcons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" }
+  // { name: "Pooja Gupta", img: TeacherIcons.Faculty2, subject: "Biology", exp: "15+ years", qual: "M.Sc, PGT" },
+  { name: "Dr. N. Khanna", img: TeacherIcons.Faculty5, subject: "Biology", exp: "22+ years", qual: "PHD" }
 ];
 
 const reviews = [

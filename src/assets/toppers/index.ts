@@ -5,3 +5,6 @@ export { default as Arvin } from "./Arvin.jpeg";
 export { default as Rabani } from "./Rabani.png";
 export { default as Aditya } from "./Aditya.png";
 export { default as Vidhi } from "./Vidhi.png";
+export { default as Samiya } from "./Samiya.jpeg";
+export { default as Vanshika } from "./Vanshika.jpeg";
+export { default as Mayuri } from "./Mayuri.jpeg";

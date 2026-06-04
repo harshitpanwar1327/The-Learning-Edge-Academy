@@ -77,6 +77,33 @@ const toppers = [
     ],
     photo: TopperIcons.Vidhi,
   },
+  {
+    name: "Samiya",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "99%" },
+      { name: "Science", marks: "96%" },
+    ],
+    photo: TopperIcons.Samiya,
+  },
+  {
+    name: "Vanshika",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "99%" },
+      { name: "Science", marks: "96%" },
+    ],
+    photo: TopperIcons.Vanshika,
+  },
+  {
+    name: "Mayuri",
+    grade: "Class 10th",
+    subjects: [
+      { name: "Math", marks: "96%" },
+      { name: "Science", marks: "91%" },
+    ],
+    photo: TopperIcons.Mayuri,
+  },
 ];
 
 const reviews = [
