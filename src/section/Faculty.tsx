@@ -34,13 +34,9 @@ const Faculty: React.FC<FacultyProps> = ({ badge, heading, description, faculty 
             </div>
             <div className="text-center">
             <h4 className="text-lg font-bold text-[#1B1F66]">{f.name}</h4>
-            <p className="text-sm font-medium text-[#F0532B]">{f.subject}</p>
+            <p className="text-sm font-medium text-[#F0532B]">{f.subject} ({f.qual})</p>
           </div>
-          <div className="flex items-center justify-center gap-1 text-sm text-gray-500">
-            <span>{f.exp}</span>
-            <span>•</span>
-            <span>{f.qual}</span>
-          </div>
+          <p className="text-center text-sm text-gray-500">{f.exp}</p>
         </div>
         ))}
       </div>
