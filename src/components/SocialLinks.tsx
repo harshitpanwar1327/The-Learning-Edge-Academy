@@ -9,7 +9,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/thelearningedgeacademy_/",
+    href: "https://www.instagram.com/thelearningedges/",
     icon: Instagram,
     bg: "bg-[hsl(330,70%,50%)]",
   },

@@ -45,7 +45,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-4 mt-2">
             <a href="https://www.facebook.com/share/17o9JXHGrS/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><FacebookRounded /></a>
-            <a href="https://www.instagram.com/thelearningedgeacademy_/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><Instagram sx={{ fontSize: 18 }} /></a>
+            <a href="https://www.instagram.com/thelearningedges/" rel="noopener noreferrer" target="_blank" className="w-10 h-10 flex items-center justify-center bg-white/10 hover:bg-[#F0532B] rounded-full cursor-pointer transition duration-300"><Instagram sx={{ fontSize: 18 }} /></a>
           </div>
         </div>
 
