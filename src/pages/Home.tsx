@@ -60,10 +60,10 @@ const results = [
 ];
 
 const faculty = [
-  { name: "Ashish Sir", img: TeacherIcons.Faculty1, subject: "Maths", exp: "27+ years (Ex- faculty of Narayana, and DAV East of Kailash)", qual: "M.Sc, PGT" },
+  { name: "Ashish Sir", img: TeacherIcons.Faculty1, subject: "Maths", exp: "27+ years (Ex-faculty of Narayana, and DAV East of Kailash)", qual: "M.Sc, PGT" },
   { name: "Dr. Nishchal Khanna", img: TeacherIcons.Faculty2, subject: "Physics", exp: "22+ years ( FIITJEE , Narayana, HOD of Allen, Kota)", qual: "M.Sc, PHD" },
-  // { name: "Vicky Sir", img: TeacherIcons.Faculty2, subject: "Chemistry", exp: "15+ years", qual: "M.Sc, PGT" },
-  { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty4, subject: "Chemistry", exp: "25+ years (Ex - faculty of VMC)", qual: "M.Sc, PGT" },
+  { name: "Vicky Kumar", img: TeacherIcons.Faculty3, subject: "Chemistry", exp: "9+ years (Ex-faculty Aakash)", qual: "M.Sc, PGT" },
+  { name: "Mr. Sanjay Kumar", img: TeacherIcons.Faculty4, subject: "Chemistry", exp: "25+ years (Ex-faculty of VMC)", qual: "M.Sc, PGT" },
   { name: "Anuradha Agarwal", img: TeacherIcons.Faculty5, subject: "Biology", exp: "18+ years", qual: "M.Sc, B.Ed." }
 ];
 
